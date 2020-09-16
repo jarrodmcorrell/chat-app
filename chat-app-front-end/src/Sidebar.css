@@ -1,0 +1,30 @@
+.sidebar{
+    flex:0.35;
+    background-color: #dddddd;
+    border-right: 1px solid lightgrey;
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar_search{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    border-radius: 30px;
+    width: 75%;
+    margin-left:10%;
+    background-color: white;
+    border:none;
+}
+
+.sidebar_search > input{
+    border:none;
+    margin-left: 8px;
+}
+
+input:focus{
+    outline:none;
+}
